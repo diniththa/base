@@ -6,8 +6,8 @@
     "node": ">=22"
   },
   "scripts": {
-    "dev": "vocs dev",
-    "build": "vocs build",
+    "dev": "node init && vocs dev",
+    "build": "node init && vocs build",
     "preview": "vocs preview"
   },
   "devDependencies": {
